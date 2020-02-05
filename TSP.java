@@ -210,7 +210,14 @@ public class TSP
 		long endVal=index.longValue();
 		long start = System.currentTimeMillis();
 		long end = start + endVal*1000; 
-		
+		 //remove this!
+		 int i = 0; 
+		 while(true){
+			 if(true){
+				 i++;
+			}
+		}
+
 		while(open.size()>0 && !state)
 		{
 			while(System.currentTimeMillis()<end)
